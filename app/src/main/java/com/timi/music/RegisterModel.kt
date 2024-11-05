@@ -1,9 +1,9 @@
 package com.timi.music
 
 import android.util.Log
-import com.example.musicplus.bean.Captcha
-import com.example.musicplus.bean.CaptchaService
-import com.example.utils.web.ServiceBuilder
+import com.timi.music.bean.Captcha
+import com.timi.music.bean.CaptchaService
+import com.timi.utils.ServiceBuilder
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

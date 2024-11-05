@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">timi-music</string>
+    <string name="app_name">MusicPlus</string>
+    <string name="login_title">*My Music*</string>
+    <string name="login_toLogin">Login</string>
+    <string name="login_toRegister">Register</string>
+    <string name="login_touristLogin">Tourist Login</string>
+    <string name="register_title">Register</string>
+    <string name="register_phoneNumber">1. Your PhoneNumber</string>
+    <string name="register_hint_phoneNumber">PhoneNumber…</string>
+    <string name="register_password">2.Your Password</string>
+    <string name="register_hint_password">Password…</string>
+    <string name="register_username">3.Your Username</string>
+    <string name="register_hint_username">Username…</string>
+    <string name="register_code">4.Code</string>
+    <string name="register_hint_code">Code…</string>
+    <string name="register_getCode">GetCode</string>
+
 </resources>

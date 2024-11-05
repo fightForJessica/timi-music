@@ -2,7 +2,6 @@ package com.timi.music
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.timi.music.RegisterModel
 
 class RegisterViewModel: ViewModel() {
     private val registerModel: RegisterModel by lazy { RegisterModel() }

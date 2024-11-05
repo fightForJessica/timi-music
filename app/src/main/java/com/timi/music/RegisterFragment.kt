@@ -9,9 +9,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.MusicPlus.databinding.FragmentRegisterBinding
-import com.example.utils.Logger
-import com.example.utils.makeToast
+
 
 
 class RegisterFragment : Fragment(), OnClickListener{
