@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.musicplus.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_LoginFragment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120sp"
+            android:text="@string/login_title"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="italic|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edt_LoginFragment_phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginEnd="30sp"
+            android:minHeight="48sp"
+            android:maxLines="1"
+            android:maxLength="11"
+            android:hint="@string/register_hint_phoneNumber"
+            android:textColorHint="@android:color/darker_gray"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_LoginFragment_title"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/edt_LoginFragment_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="100sp"
+            android:minHeight="48sp"
+            android:maxLines="1"
+            android:maxLength="6"
+            android:textColorHint="@android:color/darker_gray"
+            android:hint="@string/register_hint_code"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_LoginFragment_phoneNumber"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <Button
+            android:id="@+id/btn_LoginFragment_sendCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText"
+            android:textAllCaps="false"
+            app:layout_constraintTop_toTopOf="@+id/edt_LoginFragment_code"
+            app:layout_constraintStart_toEndOf="@+id/edt_LoginFragment_code"/>
+
+        <Button
+            android:id="@+id/btn_LoginFragment_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="@string/login_toLogin"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            app:layout_constraintTop_toBottomOf="@id/edt_LoginFragment_code"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"/>
+
+        <Button
+            android:id="@+id/btn_LoginFragment_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="@string/login_toRegister"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            app:layout_constraintTop_toBottomOf="@id/edt_LoginFragment_code"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.75" />
+
+        <Button
+            android:id="@+id/btn_LoginFragment_touristLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/login_touristLogin"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            app:layout_constraintTop_toBottomOf="@+id/btn_LoginFragment_login"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <Button
+            android:id="@+id/btn_LoginFragment_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_LoginFragment_touristLogin"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
