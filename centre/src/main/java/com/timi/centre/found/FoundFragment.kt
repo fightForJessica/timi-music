@@ -16,7 +16,7 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.timi.centre.BaseFragment
-import com.example.centre.CentreActivity
+import com.timi.centre.CentreActivity
 import com.timi.centre.R
 import com.timi.centre.found.adapter.FoundOverAllAdapter
 import com.timi.centre.found.bean.Banner

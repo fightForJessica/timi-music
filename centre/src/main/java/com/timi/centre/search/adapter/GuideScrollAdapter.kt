@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.timi.centre.R
-import com.timi.centre.search.adapter.GuideScrollDetailAdapter
 import com.timi.centre.search.bean.Artist
 import com.timi.centre.search.bean.HotSearchData
 

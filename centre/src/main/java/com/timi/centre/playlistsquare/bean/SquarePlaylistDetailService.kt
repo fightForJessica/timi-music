@@ -1,7 +1,6 @@
 package com.timi.centre.playlistsquare.bean
 
 import com.timi.utils.WebConstant
-import com.timi.centre.playlistsquare.bean.SquarePlaylistDetail
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

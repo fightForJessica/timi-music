@@ -15,7 +15,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.timi.centre.BaseFragment
 import com.timi.centre.databinding.FragmentResultBinding
-import com.timi.centre.search.ResultViewModel
 import com.timi.centre.search.adapter.SearchResultAdapter
 import com.timi.centre.search.bean.Song
 import com.timi.player.MusicActivity

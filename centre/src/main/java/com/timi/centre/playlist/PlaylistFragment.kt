@@ -23,7 +23,6 @@ import com.timi.centre.BaseFragment
 import com.timi.centre.CentreActivity
 import com.timi.centre.R
 import com.timi.centre.databinding.FragmentPlaylistBinding
-import com.timi.centre.playlist.PlaylistViewModel
 import com.timi.centre.playlist.adapter.SongListAdapter
 import com.timi.centre.playlist.bean.Playlist
 import com.timi.player.MusicActivity

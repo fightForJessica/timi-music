@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.timi.centre.R
-import com.timi.centre.playlistsquare.adapter.ColumnCategoryAdapter
 import com.timi.centre.playlistsquare.room.CategoryTag
 
 class ChooseCategoryAdapter(

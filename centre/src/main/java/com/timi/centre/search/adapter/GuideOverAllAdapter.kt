@@ -8,7 +8,6 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.timi.centre.R
-import com.timi.centre.search.adapter.GuideScrollAdapter
 import com.timi.centre.search.bean.Artist
 import com.timi.centre.search.bean.Guess
 import com.timi.centre.search.bean.History

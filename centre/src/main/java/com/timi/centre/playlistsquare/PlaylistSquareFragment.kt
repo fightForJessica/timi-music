@@ -15,7 +15,6 @@ import com.timi.centre.BaseFragment
 import com.timi.centre.CentreActivity
 import com.timi.centre.R
 import com.timi.centre.databinding.FragmentPlaylistSquareBinding
-import com.timi.centre.playlistsquare.PlaylistSquareViewModel
 import com.timi.centre.playlistsquare.adapter.SquarePlaylistAdapter
 import com.timi.centre.playlistsquare.bean.Playlists
 import com.timi.centre.playlistsquare.room.CategoryTag

@@ -1,7 +1,6 @@
 package com.timi.centre.playlistsquare
 
 import android.content.Context
-import com.timi.centre.playlistsquare.PlaylistSquareViewModel
 import com.timi.centre.playlistsquare.bean.PlaylistCategory
 import com.timi.centre.playlistsquare.bean.PlaylistCategoryService
 import com.timi.centre.playlistsquare.bean.SquarePlaylistDetail

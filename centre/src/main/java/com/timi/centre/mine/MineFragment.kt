@@ -13,7 +13,6 @@ import com.timi.centre.BaseFragment
 import com.timi.centre.CentreActivity
 import com.timi.centre.R
 import com.timi.centre.databinding.FragmentMineBinding
-import com.timi.centre.mine.MineViewModel
 import com.timi.utils.isClickEffective
 
 

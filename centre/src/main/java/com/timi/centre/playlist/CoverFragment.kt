@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
-import com.example.centre.databinding.FragmentCoverBinding
+import com.timi.centre.databinding.FragmentCoverBinding
 import com.timi.centre.playlist.adapter.CoverLabelAdapter
 import com.timi.utils.Logger
 import com.timi.utils.getCompressBitmap

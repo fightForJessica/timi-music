@@ -15,7 +15,6 @@ import com.timi.centre.BaseFragment
 import com.timi.centre.CentreActivity
 import com.timi.centre.R
 import com.timi.centre.databinding.FragmentGuideBinding
-import com.timi.centre.search.GuideViewModel
 import com.timi.centre.search.adapter.GuideOverAllAdapter
 import com.timi.centre.search.bean.Artist
 import com.timi.centre.search.bean.Guess

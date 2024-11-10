@@ -4,7 +4,6 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.timi.centre.playlistsquare.room.CategoryTag
 
 @Database(entities = [CategoryTag::class], version = 1, exportSchema = true)
 abstract class CategoryDatabase : RoomDatabase() {
