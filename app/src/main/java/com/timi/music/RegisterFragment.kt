@@ -9,7 +9,9 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-
+import com.timi.music.databinding.FragmentRegisterBinding
+import com.timi.utils.Logger
+import com.timi.utils.makeToast
 
 
 class RegisterFragment : Fragment(), OnClickListener{

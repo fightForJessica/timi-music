@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "timi-music"
 include(":app")
 include(":utils")
+include(":centre")
