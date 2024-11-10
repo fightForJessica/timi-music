@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    id("kotlin-kapt")
 }
 
 android {
@@ -37,6 +38,18 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.palette.palette3)
+    implementation(libs.androidx.room.room.runtime3)
+    kapt(libs.androidx.room.compiler)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.com.squareup.picasso.picasso3)
+    implementation(libs.glide)
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
     implementation(project(":utils"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
