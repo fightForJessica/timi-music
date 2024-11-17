@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/centre_nav"
+    app:startDestination="@id/foundFragment">
+
+    <fragment
+        android:id="@+id/foundFragment"
+        android:name="com.timi.centre.found.FoundFragment"
+        android:label="fragment_found"
+        tools:layout="@layout/fragment_found" >
+        <action
+            android:id="@+id/action_foundFragment_to_guideFragment"
+            app:destination="@id/guideFragment" />
+        <action
+            android:id="@+id/action_foundFragment_to_playlistFragment"
+            app:destination="@id/playlistFragment" />
+        <action
+            android:id="@+id/action_foundFragment_to_playlistSquareFragment"
+            app:destination="@id/playlistSquareFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mineFragment"
+        android:name="com.timi.centre.mine.MineFragment"
+        android:label="fragment_mine"
+        tools:layout="@layout/fragment_mine" >
+        <action
+            android:id="@+id/action_mineFragment_to_guideFragment"
+            app:destination="@id/guideFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/guideFragment"
+        android:name="com.timi.centre.search.GuideFragment"
+        android:label="fragment_guide"
+        tools:layout="@layout/fragment_guide" >
+        <action
+            android:id="@+id/action_guideFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.timi.centre.search.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+    </fragment>
+    <fragment
+        android:id="@+id/playlistFragment"
+        android:name="com.timi.centre.playlist.PlaylistFragment"
+        android:label="fragment_playlist"
+        tools:layout="@layout/fragment_playlist" >
+        <action
+            android:id="@+id/action_playlistFragment_to_coverFragment"
+            app:destination="@id/coverFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/coverFragment"
+        android:name="com.timi.centre.playlist.CoverFragment"
+        android:label="fragment_cover"
+        tools:layout="@layout/fragment_cover" />
+    <fragment
+        android:id="@+id/playlistSquareFragment"
+        android:name="com.timi.centre.playlistsquare.PlaylistSquareFragment"
+        android:label="fragment_playlist_square"
+        tools:layout="@layout/fragment_playlist_square" >
+        <action
+            android:id="@+id/action_playlistSquareFragment_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
+        <action
+            android:id="@+id/action_playlistSquareFragment_to_playlistFragment"
+            app:destination="@id/playlistFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.timi.centre.playlistsquare.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+
+
+</navigation>

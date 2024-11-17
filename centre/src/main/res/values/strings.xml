@@ -1,0 +1,10 @@
+<resources>
+	<string name="main_open">打开</string>
+	<string name="main_close">关闭</string>
+	<string name="centreActivity_exitLogin">退出登录</string>
+	<string name="mineFragment_recommend">推荐</string>
+	<string name="search_hint">search…</string>
+	<string name="search_guide_guessLike">猜你喜欢</string>
+	<string name="search_guide_history">搜索历史</string>
+	<string name="coverFragment_label">标签：</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp">
+
+    <TextView
+        android:id="@+id/tv_Search_resultSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:maxWidth="275dp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/tv_Search_resultSingerAndDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#919191"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/tv_Search_resultSong"/>
+
+    <ImageView
+        android:id="@+id/iv_Search_resultMore"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_more"
+        tools:ignore="ContentDescription" />
+
+
+</RelativeLayout>

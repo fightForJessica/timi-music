@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<TextView
+		android:id="@+id/tv_Playlist_songNumber"
+		android:layout_width="21dp"
+		android:layout_height="21dp"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		android:layout_marginStart="15dp"
+		android:gravity="center"
+		android:textColor="#C7C8CA"
+		android:textSize="18sp"/>
+
+	<TextView
+		android:id="@+id/tv_Playlist_songName"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:textColor="#000000"
+		android:ellipsize="end"
+		android:maxLines="1"
+		android:layout_marginStart="15dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginEnd="15dp"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/tv_Playlist_songNumber"
+		app:layout_constraintEnd_toStartOf="@+id/iv_PlayList_more"/>
+
+	<TextView
+		android:id="@+id/tv_PlayList_artistAndDescription"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textSize="16sp"
+		android:textColor="#ACADAF"
+		android:ellipsize="end"
+		android:maxLines="1"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		app:layout_constraintTop_toBottomOf="@+id/tv_Playlist_songName"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintStart_toStartOf="@+id/tv_Playlist_songName"
+		app:layout_constraintEnd_toEndOf="@+id/tv_Playlist_songName"/>
+
+	<ImageView
+		android:id="@+id/iv_PlayList_more"
+		android:layout_width="18dp"
+		android:layout_height="18dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:layout_marginEnd="15dp"
+		android:background="@drawable/ic_more"
+		tools:ignore="ContentDescription" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

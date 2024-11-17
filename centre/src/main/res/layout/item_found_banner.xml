@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_Found_bannerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="推荐"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginStart="15sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_Found_banner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tv_Found_bannerText"/>
+</RelativeLayout>
