@@ -18,10 +18,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.timi.centre.BaseFragment
 import com.timi.centre.CentreActivity
 import com.timi.centre.R
+import com.timi.centre.databinding.FragmentFoundBinding
 import com.timi.centre.found.adapter.FoundOverAllAdapter
 import com.timi.centre.found.bean.Banner
 import com.timi.centre.found.bean.RecommandPlayResult
 import com.timi.utils.Logger
+import com.timi.utils.isClickEffective
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

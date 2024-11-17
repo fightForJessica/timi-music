@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.palette.palette3)
     implementation(libs.androidx.room.room.runtime3)
+    implementation(project(":player"))
     ksp(libs.androidx.room.compiler)
     implementation(libs.retrofit)
     implementation(libs.converter.gson)

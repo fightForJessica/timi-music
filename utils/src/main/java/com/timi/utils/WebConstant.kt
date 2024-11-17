@@ -5,7 +5,7 @@ package com.timi.utils
  */
 object WebConstant{
     
-    const val currentUrl = "http://172.20.10.5:3000/" // 三方 API 所开启的 ip 地址
+    const val currentUrl = "http://192.168.11.147:3000/" // 三方 API 所开启的 ip 地址
 
     object Login{
         const val API_TOURIST = "register/anonimous"            //游客登陆

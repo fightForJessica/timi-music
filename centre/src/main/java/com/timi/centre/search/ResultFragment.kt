@@ -167,7 +167,7 @@ class ResultFragment : BaseFragment() {
                 //onResultItemClicked
                 if (isClickEffective()){
                     //将点击播放的歌曲信息先写入数据库，完成后启动MusicActivity
-                    SongUtils.storeSongData(requireContext(), com.example.player.store.bean.Song(songId, songName, arAndDes, picUrl)) {
+                    SongUtils.storeSongData(requireContext(), com.timi.player.store.bean.Song(songId, songName, arAndDes, picUrl)) {
                         startActivity(Intent(context, MusicActivity::class.java))
                     }
                 }
